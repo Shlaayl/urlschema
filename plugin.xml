@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="urlschema.ajh.com" version="1" xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>urlschema</name>
+    <js-module name="urlschema" src="www/urlschema.js">
+        <clobbers target="cordova.plugins.urlschema" />
+    </js-module>
+    <platform name="ios">
+        <config-file target="*-Info.plist" parent="CFBundleURLTypes">
+            <array>
+                <dict>
+                    <key>CFBundleURLSchemes</key>
+                    <array>
+                        <string>msauth.4c0a39c9-df3e-4d02-b2b9-63de482476b1</string>
+                    </array>
+                </dict>
+            </array>
+            </config-file>
+
+            <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
+                <array>
+                    <string>msauthv2</string>
+                    <string>msauthv3</string>
+                </array>
+                </config-file>
+
+        <config-file parent="/*" target="config.xml">
+            <feature name="urlschema">
+                <param name="ios-package" value="urlschema" />
+            </feature>
+        </config-file>
+        <source-file src="src/ios/urlschema.m" />
+    </platform>
+</plugin>
