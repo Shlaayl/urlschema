@@ -5,5 +5,5 @@ exports.coolMethod = function (arg0, success, error) {
 };
 
 exports.test = function (arg0, success, error) {
-    return "Test v.4";
+    return "Test v.5";
 };
