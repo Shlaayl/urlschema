@@ -82,6 +82,13 @@
               </array>
         </config-file>
 
+        <config-file target="*-Info.plist" parent="UIBackgroundModes">
+            <array>
+                <string>fetch</string>
+                <string>remote-notification</string>
+            </array>
+        </config-file>
+
         <config-file parent="/*" target="config.xml">
             <feature name="urlschema">
                 <param name="ios-package" value="urlschema" />
