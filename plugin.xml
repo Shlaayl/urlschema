@@ -15,12 +15,18 @@
                     </array>
                 </dict>
                 <dict>
+                    <key>CFBundleURLSchemes</key>
+                    <array>
+                        <string>https://personal-pglcirvp.outsystemscloud.com/CME_UI/Request</string>
+                    </array>
+                </dict>
+                <dict>
                     <key>CFBundleTypeRole</key>
                     <string>Editor</string>
                     <key>CFBundleURLSchemes</key>
                     <array>
                         <string>
-                            https://aljasserholding-dev.outsystemsenterprise.com/Users/SAMLLogin.aspx?OriginalURL=Uq8rC2QsQGAyenWzhAuJYlcabECXYdG9xtCwg5DwHdcibaLHnGNWpHoIxKm16zpm7BksUqM9d7129a8LfM70pkgJwVQvwyLy09iZVgegllpTqoIGUlV9w9fYFT6%2fSgHo</string>
+                            https://aljasserholding-dev.outsystemsenterprise.com/IOSTest</string>
                     </array>
                 </dict>
 
