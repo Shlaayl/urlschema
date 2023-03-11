@@ -18,6 +18,25 @@
                         <string>4c0a39c9-df3e-4d02-b2b9-63de482476b1</string>
                     </array>
                 </dict>
+
+                <dict>
+                    <key>CFBundleTypeRole</key>
+                    <string>Editor</string>
+                    <key>CFBundleURLSchemes</key>
+                    <array>
+                        <string>https://login.microsoftonline.com/4c0a39c9-df3e-4d02-b2b9-63de482476b1/saml2</string>
+                    </array>
+                </dict>
+
+                <dict>
+                    <key>CFBundleTypeRole</key>
+                    <string>Editor</string>
+                    <key>CFBundleURLSchemes</key>
+                    <array>
+                        <string>4c0a39c9-df3e-4d02-b2b9-63de482476b1</string>
+                    </array>
+                </dict>
+
             </array>
         </config-file>
         <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
